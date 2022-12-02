@@ -4,7 +4,8 @@ import { getContacts } from 'redux/selectors';
 // Импортируем хук
 import { useDispatch, useSelector } from 'react-redux';
 // Импортируем генератор экшена
-import { addContacts } from '../../redux/contactsSlice';
+//
+import { addContacts } from 'redux/operations';
 
 export const ContactForm = () => {
   // Получаем ссылку на функцию отправки экшенов

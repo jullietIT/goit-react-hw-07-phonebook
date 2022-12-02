@@ -6,6 +6,8 @@ import { setStatusFilter } from 'redux/filtersSlice';
 
 const Filter = () => {
   const dispatch = useDispatch();
+  // const filter = useSelector(getStatusFilter);
+
   const handleChange = e => {
     dispatch(setStatusFilter(e.target.value)); //передаємо значення у фільтрі
   };

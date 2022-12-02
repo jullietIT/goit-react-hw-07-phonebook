@@ -35,20 +35,3 @@ export const store = configureStore({
     }),
 });
 export const persistor = persistStore(store);
-//
-// const initialState = {
-//   contacts: [],
-//   filter: '',
-// };
-
-// export const store = configureStore({
-//   reducer: rootReducer,
-// });
-// const rootReducer = (state = initialState, action) => {
-//   return state;
-// };
-
-// // Создаем расширение стора чтобы добавить инструменты разработчика
-// const enhancer = devToolsEnhancer();
-
-// export const store = createStore(rootReducer, enhancer);

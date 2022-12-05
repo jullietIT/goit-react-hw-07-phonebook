@@ -20,16 +20,16 @@ const fulfilledReducer = state => {
 };
 
 const fetchContactsReducer = (state, action) => {
-  state.items = action.payload;
+  state.contacts = action.payload;
 };
 
 const addContactsReducer = (state, action) => {
-  state.items.push(action.payload);
+  state.contacts.push(action.payload);
 };
 
 const deleteContactsReducer = (state, action) => {
-  const index = state.items.findIndex(task => task.id === action.payload.id);
-  state.items.splice(index, 1);
+  const index = state.contacts.findIndex(task => task.id === action.payload.id);
+  state.contacts.splice(index, 1);
 };
 
 const contactsSlice = createSlice({

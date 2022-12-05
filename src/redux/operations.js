@@ -1,7 +1,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://638cbb70d2fc4a058a5e903d.mockapi.io/api';
+axios.defaults.baseURL = 'https://638cbb70d2fc4a058a5e903d.mockapi.io/';
 
 const errorMessage = `Sorry! Something went wrong. Please refresh this page and try again.`;
 

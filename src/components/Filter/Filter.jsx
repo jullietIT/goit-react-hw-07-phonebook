@@ -1,4 +1,3 @@
-// import React, { Component } from 'react';
 import React from 'react';
 import { FilterWrapper, Title, Title2 } from './Filter.styled';
 import { useDispatch, useSelector } from 'react-redux';

@@ -2,7 +2,6 @@ import { useState } from 'react';
 
 export default function ContactEditor() {
   const [name, setNames] = useState([]);
-  // const [filter, setFilters] = useState('');
 
   const handleChange = event => {
     setNames(event.currentTarget.value.toLowerCase);

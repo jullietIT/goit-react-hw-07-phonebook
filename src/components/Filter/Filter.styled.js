@@ -6,11 +6,8 @@ export const FilterWrapper = styled.div`
 
   align-items: center;
   flex-direction: column;
-  /* position: absolute; */
+  
 `;
-
-// export const labelFilter = styled.label`
-//   /* margin-bottom: 20px; */
 
 export const Title2 = styled.h2`
   display: flex;
